@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 1426737130}
   - component: {fileID: 1426737131}
   - component: {fileID: 1426737132}
+  - component: {fileID: 1426737133}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -775,7 +776,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -819,13 +820,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoAttack
   fireRate: 1
-  projectileCount: 4
+  projectileCount: 2
   baseDamage: 20
   spreadShot: 0
   explosive: 0
   explosiveDoubleDamage: 0
   autoKnockback: 0
   lockOn: 0
+--- !u!114 &1426737133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426737124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103b6081cafcf4ae59c56c5f31c611b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerVisual
 --- !u!1 &1598646294
 GameObject:
   m_ObjectHideFlags: 0
