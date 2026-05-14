@@ -10,3 +10,7 @@
 *.csproj
 *.sln
 *.slnx
+
+# WebGL build for GitHub Pages
+!docs/
+!docs/**
